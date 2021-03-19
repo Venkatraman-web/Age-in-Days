@@ -1,0 +1,46 @@
+div > .heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading::after{
+    border: 1px solid black;
+    background-color: black;
+    display: flex;
+    content: "";
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    width: 600px;
+    margin: auto;
+    position: relative;
+    bottom: -50px;
+    height: 200px;
+    
+}
+.age{
+    margin: 10px 0px;
+    
+}
+.challenge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 196px;
+    width: 100%;
+}
+#btn{
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: rgb(228, 196, 196);
+   
+}
+
+
